@@ -32,31 +32,31 @@ body.dark::-webkit-scrollbar-thumb {
     border: 3px solid #3c3c3c;
 }
 
-body.dark .aali_tm_hero {
+body.dark .tanjim_tm_hero {
     background-color: #6242da;
 }
 
-body.dark .aali_tm_header.animate {
+body.dark .headerbro.animate {
     background-color: #3c3c3c;
 }
 
-body.dark .aali_tm_header.animate .menu ul li a {
+body.dark .headerbro.animate .menu ul li a {
     color: #fff;
 }
 
-body.dark .aali_tm_header.animate .menu ul li.current a {
+body.dark .headerbro.animate .menu ul li.current a {
     color: #ea4343;
 }
 
-body.dark .aali_tm_header.animate .menu ul li a:hover {
+body.dark .headerbro.animate .menu ul li a:hover {
     color: #ea4343;
 }
 
-body.dark .aali_tm_button a:hover {
+body.dark .tanjim_button a:hover {
     color: #fff;
 }
 
-body.dark .aali_tm_button a:hover .svg {
+body.dark .tanjim_button a:hover .svg {
     color: #fff;
 }
 
@@ -70,11 +70,11 @@ body.dark .aali_tm_service .service_list ul li.simple .list_inner {
     box-shadow: none;
 }
 
-body.dark .aali_tm_button.border a {
+body.dark .tanjim_button.border a {
     color: #fff;
 }
 
-body.dark .aali_tm_button.border a svg {
+body.dark .tanjim_button.border a svg {
     color: #fff;
 }
 
@@ -86,11 +86,11 @@ body.dark .aali_tm_testimonials .square {
     background-color: #fff;
 }
 
-body.dark .aali_tm_news .news_list ul li .details .title a {
+body.dark .port_news .news_list ul li .details .title a {
     color: #fff;
 }
 
-body.dark .aali_tm_news .news_list ul li .details .title a:hover {
+body.dark .port_news .news_list ul li .details .title a:hover {
     color: #ea4343;
 }
 
@@ -98,29 +98,29 @@ body.dark .aali_tm_learn_more a {
     color: #fff;
 }
 
-body.dark .aali_tm_contact .left ul li span {
+body.dark .tanjim_tm_contact .left ul li span {
     color: #fff;
 }
 
-body.dark .aali_tm_contact .left ul li .svg {
+body.dark .tanjim_tm_contact .left ul li .svg {
     color: #fff;
 }
 
-body.dark .aali_tm_contact .square {
+body.dark .tanjim_tm_contact .square {
     background-color: #fff;
 }
 
-body.dark .aali_tm_copyright {
+body.dark .tanjim_tm_copyright {
     background-color: #333232;
 }
 
-body.dark .aali_tm_contact .right .input_list ul li input {
+body.dark .tanjim_tm_contact .right .input_list ul li input {
     background-color: #4d4c4c;
     box-shadow: none;
     color: #9e9ba3;
 }
 
-body.dark .aali_tm_contact .message_area textarea {
+body.dark .tanjim_tm_contact .message_area textarea {
     background-color: #4d4c4c;
     box-shadow: none;
     color: #9e9ba3;

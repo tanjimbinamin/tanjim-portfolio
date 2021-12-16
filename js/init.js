@@ -11,23 +11,23 @@ jQuery(document).ready(function() {
 
     // here all ready functions
 
-    aali_tm_resume_image_width();
+    tanijm_resume_image_width();
     aali_tm_nav_bg();
     aali_tm_trigger_menu();
-    aali_tm_hero_image();
+    tanjim_tm_hero_image();
     aali_tm_service_popup();
     aali_tm_portfolio_popup();
-    aali_tm_news_popup();
+    port_news_popup();
     aali_tm_cursor();
     aali_tm_imgtosvg();
     aali_tm_popup();
     aali_tm_portfolio();
     aali_tm_data_images();
-    aali_tm_contact_form();
+    tanjim_tm_contact_form();
     aali_tm_jarallax();
     aali_tm_testimonial_arrow();
     aali_tm_owl_carousel();
-    aali_tm_about_animation();
+    tanjim_about_animation();
     aali_tm_moving_animation();
     aali_tm_down();
     aali_tm_totop();
@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
         aali_tm_my_load();
     });
     jQuery(window).on('resize', function() {
-        aali_tm_resume_image_width();
+        tanijm_resume_image_width();
     });
 
 });
@@ -74,12 +74,12 @@ function aali_tm_testimonial_arrow() {
 // ------------   RESUME IMAGE WIDTH    ----------------
 // -----------------------------------------------------
 
-function aali_tm_resume_image_width() {
+function tanijm_resume_image_width() {
 
     "use strict";
 
-    var media = jQuery('.aali_tm_resume .media');
-    var contentWidth = jQuery('.aali_tm_resume .resume_in').width();
+    var media = jQuery('.tanijm_resume .media');
+    var contentWidth = jQuery('.tanijm_resume .resume_in').width();
     media.css({
         width: (($(window).width() - contentWidth) / 2 + 0.15 * contentWidth) + 'px'
     });
@@ -94,7 +94,7 @@ function aali_tm_nav_bg() {
     "use strict";
 
     jQuery(window).on('scroll', function() {
-        var menu = jQuery('.aali_tm_header');
+        var menu = jQuery('.headerbro');
         var WinOffset = jQuery(window).scrollTop();
 
         if (WinOffset >= 100) {
@@ -119,9 +119,9 @@ function aali_tm_trigger_menu() {
 
     "use strict";
 
-    var hamburger = jQuery('.aali_tm_mobile_menu .trigger .hamburger');
-    var mobileMenu = jQuery('.aali_tm_mobile_menu .dropdown');
-    var mobileMenuList = jQuery('.aali_tm_mobile_menu .dropdown .dropdown_inner ul li a');
+    var hamburger = jQuery('.tanjim_tm_mobile_menu .trigger .hamburger');
+    var mobileMenu = jQuery('.tanjim_tm_mobile_menu .dropdown');
+    var mobileMenuList = jQuery('.tanjim_tm_mobile_menu .dropdown .dropdown_inner ul li a');
 
     hamburger.on('click', function() {
         var element = jQuery(this);
@@ -137,7 +137,7 @@ function aali_tm_trigger_menu() {
     });
 
     mobileMenuList.on('click', function() {
-        jQuery('.aali_tm_mobile_menu .trigger .hamburger').removeClass('is-active');
+        jQuery('.tanjim_tm_mobile_menu .trigger .hamburger').removeClass('is-active');
         mobileMenu.slideUp();
         return false;
     });
@@ -147,23 +147,23 @@ function aali_tm_trigger_menu() {
 // ---------------   HERO IMAGE  -----------------------
 // -----------------------------------------------------
 
-function aali_tm_hero_image() {
+function tanjim_tm_hero_image() {
 
     "use strict";
 
-    var FixedImage = jQuery('.aali_tm_hero .right .image .main').data('img-url');
-    var wrapper = jQuery('.aali_tm_hero .services ul');
+    var FixedImage = jQuery('.tanjim_tm_hero .right .image .main').data('img-url');
+    var wrapper = jQuery('.tanjim_tm_hero .services ul');
     var list = wrapper.find('li a');
     list.on('mouseenter', function() {
         var element = jQuery(this);
         var image = element.find('.image').attr('src');
-        element.closest('.aali_tm_hero').find('.right .image .main').css({
+        element.closest('.tanjim_tm_hero').find('.right .image .main').css({
             backgroundImage: 'url(' + image + ')'
         });
         console.log(image);
     });
     wrapper.on('mouseleave', function() {
-        jQuery('.aali_tm_hero .right .image .main').css({
+        jQuery('.tanjim_tm_hero .right .image .main').css({
             backgroundImage: 'url(' + FixedImage + ')'
         });
     });
@@ -315,12 +315,12 @@ class TextScramble {
 
 
 
-function aali_tm_news_popup() {
+function port_news_popup() {
 
     "use strict";
 
     var modalBox = jQuery('.aali_tm_modalbox');
-    var button = jQuery('.aali_tm_news .list_inner .aali_tm_full_link,.aali_tm_news .news_list ul li .details .title a,.aali_tm_news .aali_tm_learn_more a');
+    var button = jQuery('.port_news .list_inner .aali_tm_full_link,.port_news .news_list ul li .details .title a,.port_news .aali_tm_learn_more a');
     var closePopup = modalBox.find('.close');
 
     button.on('click', function() {
@@ -577,7 +577,7 @@ function aali_tm_data_images() {
 // ----------------    CONTACT FORM    -----------------
 // -----------------------------------------------------
 
-function aali_tm_contact_form() {
+function tanjim_tm_contact_form() {
 
     "use strict";
 
@@ -740,7 +740,7 @@ jQuery('.tm_counter').each(function() {
 // -------------    PARALLAX ANIMATION    --------------
 // -----------------------------------------------------
 
-function aali_tm_about_animation() {
+function tanjim_about_animation() {
 
     "use strict";
 
@@ -810,7 +810,7 @@ function aali_tm_down() {
 
     "use strict";
 
-    var topbar = jQuery('.aali_tm_header').outerHeight();
+    var topbar = jQuery('.headerbro').outerHeight();
 
     jQuery('.anchor').on('click', function() {
 
@@ -854,7 +854,7 @@ function aali_tm_color_switcher() {
     list.on('click', function() {
         var element = jQuery(this);
         var elval = element.attr('class');
-        element.closest('.aali_tm_all_wrap').attr('data-color', '' + elval + '');
+        element.closest('.tanjim_tm_all_wrap').attr('data-color', '' + elval + '');
         return false;
     });
 }
@@ -912,7 +912,7 @@ function aali_tm_cursor_switcher() {
 
     "use strict";
 
-    var wrapper = jQuery('.aali_tm_all_wrap');
+    var wrapper = jQuery('.tanjim_tm_all_wrap');
     var button = jQuery('.aali_tm_settings .cursor li a');
     var show = jQuery('.aali_tm_settings .cursor li a.show');
     var hide = jQuery('.aali_tm_settings .cursor li a.hide');
